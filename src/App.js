@@ -24,7 +24,6 @@ function App() {
       <div className="hero">
         <div className="hero-caption">
             <h1>Discover Your Wonder</h1>
-            {/* <h1>Your Wonder</h1> */}
             <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet iure excepturi ex quod at explicabo asperiores sit provident reprehenderit minus accusamus, quisquam deleniti autem cupiditate magni aperiam cum laboriosam dolore!</h4>
         </div>
         <div className="hero-caption">
