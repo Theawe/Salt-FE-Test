@@ -1,6 +1,7 @@
 * {
 margin:0;
 padding:0;
+box-sizing: border-box;
 }
 
 
@@ -49,29 +50,32 @@ padding:0;
 .hero-caption {
   width: 25%;
   color: white;
-  /* back ground-color: #fff; */
-  /* display: flex; */
-  /* direction: row; */
-  /* align-items: center; */
-  /* justify-content: center; */
+}
+
+.hero-caption img{
+  width: 50%;
+  height: 100%;
 }
 
 .about{
-  height: 70vh;
+  height: 100vh;
   background-color: #fff;
 }
 
 .about-menu{
   /* background-color: pink; */
   /* margin-top: 4rem; */
+  height: 100%;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
 
 .about-menu-item{
   margin-top: 4rem;
-  width: 20%;
+  /* width: 20%; */
+  width: 40%;
   display: grid;
   gap: 10px;
 }
@@ -102,9 +106,97 @@ padding:0;
   padding: 2rem;
 }
 
+.our-core h1{
+  /* background-color: red; */
+  display: flex;
+  color: #4097DB;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.our-core .our-core-title{
+  padding: 1rem 8rem;
+}
+.core {
+  padding: 1rem 8rem;
+}
+
+.person {
+  display: flex;
+  justify-content: center;
+  size: 50%;
+}
+.special {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.special-box{
+  min-width: 95%;
+  background-color: #fff;
+  padding: 2rem;
+  margin: 1rem;
+}
+
+.special-box h1{
+  display: flex;
+  justify-content: center;
+  color: #4097DB;
+}
+
+.special-box p{
+  padding: 2rem;
+}
+
+.special-items{
+  display: flex;
+  align-content: center;
+  text-align: center;
+}
+
 p{
   color: #777777;
 }
+
+.footer{
+  background-color: #07477A;
+  padding: 2rem;
+  min-height: 40vh;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* justify-content: space-around;
+  align-items: center; */
+}
+
+.footer-box{
+  display: flex;
+  justify-content: center;
+  /* min-width: 20%; */
+  background-color: #fff;
+  /* margin: 1rem; */
+}
+
+.list-menu{
+  /* width: 100%;
+  height: 100%; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* background-color: #777777; */
+  color: #fff;
+  /* font-size: small; */
+  font-weight: lighter;
+}
+
+/* @media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+} */
+
+
 /* .App {
   text-align: center;
 }
